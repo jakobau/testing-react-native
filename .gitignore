@@ -1,4 +1,7 @@
 
+/ios
+/android
+.expo
 
 # ignore all logs
 *.log
@@ -32,8 +35,10 @@ DerivedData
 *.xcuserstate
 project.xcworkspace
 
-# OS X
-.DS_Store
+### ReactNative.macOS Stack ###
+*.DS_Store
+.AppleDouble
+.LSOverride
 
 # Gradle
 /build/
@@ -50,6 +55,7 @@ project.xcworkspace
 /ReactAndroid/gradlew.bat
 /template/android/app/build/
 /template/android/build/
+.gradle/
 
 # Buck
 .buckd
