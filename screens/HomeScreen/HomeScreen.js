@@ -8,7 +8,7 @@ import {PESDK, PhotoEditorModal, Configuration} from 'react-native-photoeditorsd
 
 // CHANGE TEST IMAGES HERE
 import testImage1 from '../../images/example_image.jpg';
-import testImage2 from '../../images/example_image.jpg';
+import testImage2 from '../../images/example_image2.png';
 
 // EXPORTED FUNCTION
 const Home = () => {
@@ -18,7 +18,7 @@ const Home = () => {
         {/*<PhotoEditorModal visible={true} image={testImage1}/>*/}
         <Button
           title="Photo Editor Test"
-          onPress={() => PESDK.openEditor(testImage1)}
+          onPress={() => PESDK.openEditor(testImage2)}
         />
     </View>
   );
